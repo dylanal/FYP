@@ -1,0 +1,22 @@
+--------------------------- CGL Input ----------------------------------
+--------------------------- Grid info ----------------------------------
+NX
+1001
+XS             XF
+-100.           100
+--------------------------- Coefficients -------------------------------
+W0r,max         W0i,max         W0xxr          W0xxi
+0.2             0.5             -0.0004          -0.002           
+K0r       K0i        Omgkkr       Omgkki         Gammar       Gammai
+0.3       -0.0       0            -1              0.0          -1.0
+--------------------------- Time Marching ------------------------------
+dt             CFL
+0.05           0.5
+Ntime          Ntime_field            Ntime_trace
+40000          10000                  10 
+--------------------------- Input field --------------------------------
+Starting field option
+0
+Infield name
+field.dat
+time.dat
